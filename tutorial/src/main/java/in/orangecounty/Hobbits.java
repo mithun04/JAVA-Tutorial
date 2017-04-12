@@ -18,7 +18,8 @@ public class Hobbits {
             if (x == 2) {
                 h[x].name = "sam";
             }
-            System.out.println(h[x].name);
+            System.out.print(h[x].name + " is a ");
+            System.out.println("good Hobbit name");
             x=x+1;
         }
     }
