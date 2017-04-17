@@ -12,12 +12,10 @@ public class Hobbits {
         while (x < 3) {
             h[x] = new Hobbits();
             h[x].name = "bilbo";
-            if (x == 1) {
+            if (x == 1)
                 h[x].name = "frodo";
-            }
-            if (x == 2) {
+            if (x == 2)
                 h[x].name = "sam";
-            }
             System.out.print(h[x].name + " is a ");
             System.out.println("good Hobbit name");
             x=x+1;
